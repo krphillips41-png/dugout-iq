@@ -889,3 +889,9 @@ body {
   width: 100%;
   max-width: 100%;
 }
+@media (max-width: 640px) {
+  .page-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
