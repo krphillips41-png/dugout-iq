@@ -853,3 +853,18 @@ textarea {
     margin-bottom: 4px;
   }
 }
+* {
+  box-sizing: border-box;
+}
+
+.section-card {
+  overflow: hidden;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
