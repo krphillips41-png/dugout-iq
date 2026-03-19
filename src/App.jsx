@@ -1356,7 +1356,7 @@ export default function App() {
                         <h4 className="mini-section-title">Defense</h4>
 
                         <div className="defense-grid">
-                          {POSITION_OPTIONS.map((position) => (
+                          {POSITION_OPTIONS.filter((position) => position !== "P" && position !== "C").map((position) => (
                             <div className="field" key={`${inning.inningNumber}-${position}`}>
                               <label>{position}</label>
                               <select
