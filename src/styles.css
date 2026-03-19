@@ -1,4 +1,10 @@
-:root {
+input,
+select,
+textarea {
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+}:root {
   --bg: #f3f6fb;
   --surface: #ffffff;
   --surface-soft: #f8fbff;
@@ -811,4 +817,11 @@ button {
   .button-row > button {
     flex: 1;
   }
+}
+input,
+select,
+textarea {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
