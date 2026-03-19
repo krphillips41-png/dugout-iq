@@ -1275,7 +1275,7 @@ export default function App() {
                       <div className="lineup-spot-badge">{index + 1}</div>
 
                       <div className="field lineup-field">
-                        
+                      
                         <select
                           value={playerId}
                           onChange={(e) =>
