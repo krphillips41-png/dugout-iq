@@ -868,3 +868,24 @@ textarea {
   max-width: 100%;
   display: block;
 }
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+.app,
+.app-shell,
+.app-container,
+.page,
+.page-shell,
+.main-content {
+  width: 100%;
+  max-width: 100%;
+}
