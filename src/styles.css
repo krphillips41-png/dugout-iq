@@ -831,3 +831,25 @@ textarea {
   max-width: 100% !important;
   box-sizing: border-box !important;
 }
+@media (max-width: 768px) {
+  input,
+  select,
+  textarea,
+  button {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .lineup-row,
+  .batting-order-row {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .lineup-row label,
+  .batting-order-row label {
+    display: block;
+    margin-bottom: 4px;
+  }
+}
